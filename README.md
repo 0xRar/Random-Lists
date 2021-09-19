@@ -13,3 +13,20 @@ ______                _                       _     _     _
 ## What Can i use the lists in this repo for:
 The wordlists in this repo are really good for Penetration Testers & Bug Hunters especially 
 for burpsuite intruder.
+
+## Use Cases:
+- ### XSS
+HTTP Request:
+```
+GET /search?q=§§ HTTP/1.1
+Host: some-vulnerable.host
+[...]
+```
+
+- ### IDOR
+HTTP Request:
+```
+POST /messages/§§/invite HTTP/1.1
+Host: some-vulnerable.host
+[...]
+```
