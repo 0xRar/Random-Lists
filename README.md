@@ -14,7 +14,7 @@ ______                _                       _     _     _
 The wordlists in this repo are really good for Penetration Testers & Bug Hunters especially 
 for burpsuite intruder.
 
-## Use Cases:
+## Example Use Cases:
 - ### XSS
 HTTP Request:
 ```
